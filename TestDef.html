@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>Cyber Minute Newsletter & Quiz</title>
+
+  <style>
+    /* Reset */
+    body, table, td, a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    table, td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    img {
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+      outline: none;
+      text-decoration: none;
+    }
+    table {
+      border-collapse: collapse !important;
+    }
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+      background-color: #F4F7FB;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Contenitore comune risultati */
+    .container-page {
+      max-width: 650px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #FFFFFF;
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+
+    /* Stili testo */
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+    .text {
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    /* Pulsanti arrotondati */
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .btn-yes {
+      background: #112B45;
+      color: #FFFFFF;
+    }
+    .btn-no {
+      background: #00BFA6;
+      color: #FFFFFF;
+    }
+    .btn-wrong {
+      background: #E5484D;
+      color: #FFFFFF;
+    }
+    .btn-correct {
+      background: #00BFA6;
+      color: #FFFFFF;
+    }
+  </style>
+</head>
+
+<body style="margin:0;padding:0;background:#F4F7FB;">
+
+<!-- =================
+     1. NEWSLETTER + QUIZ (in tabella)
+     ================= -->
+<div id="newsletter">
+  <!-- BACKGROUND -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#F4F7FB">
+    <tr>
+      <td align="center">
+
+        <!-- CONTAINER -->
+        <table width="650" border="0" cellspacing="0" cellpadding="0" class="container" style="width:650px; max-width:650px;">
+
+          <!-- HEADER -->
+          <tr>
+            <td align="center" bgcolor="#112B45" style="padding:40px 30px; border-radius:18px 18px 0 0;">
+
+              <div style="color:#FFFFFF; font-size:14px; letter-spacing:2px;">
+                <!-- LOGO AZIENDA -->
+              </div>
+
+              <div class="hero-title"
+                   style="color:#FFFFFF;
+                          font-size:40px;
+                          line-height:46px;
+                          font-weight:bold;
+                          margin-top:20px;">
+                  CYBER MINUTE
+              </div>
+
+              <div style="color:#C7D7EA;
+                          font-size:18px;
+                          line-height:28px;
+                          margin-top:15px;">
+                  Proteggi i tuoi account.<br/>
+                  Proteggi il tuo team.
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- HERO -->
+          <tr>
+            <td bgcolor="#FFFFFF" class="mobile-padding"
+                style="padding:45px 50px 20px 50px;">
+
+              <div style="background:#EAF4FF; border-radius:18px; padding:35px;">
+
+                <div style="color:#008F7A; font-size:14px; font-weight:bold; letter-spacing:1px; margin-bottom:12px;">
+                  🔐 TEMA DEL MESE
+                </div>
+
+                <div style="color:#112B45; font-size:30px; line-height:38px; font-weight:bold;">
+                  Le email create con AI stanno diventando sempre più realistiche.
+                </div>
+
+                <div class="text"
+                     style="color:#4B5B70; font-size:17px; line-height:28px; margin-top:20px;">
+                  Gli attacchi phishing moderni riescono a imitare
+                  colleghi, fornitori e piattaforme aziendali
+                  con estrema precisione.
+                </div>
+
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- SECTION 1 -->
+          <tr>
+            <td bgcolor="#FFFFFF" class="mobile-padding"
+                style="padding:20px 50px;">
+
+              <div class="section-title"
+                   style="color:#112B45; font-size:26px; font-weight:bold; margin-bottom:18px;">
+                  📌 Cosa sta succedendo
+              </div>
+
+              <div class="text"
+                   style="color:#4B5B70; font-size:17px; line-height:30px;">
+                  Gli hacker utilizzano strumenti di intelligenza artificiale
+                  per creare email sempre più credibili e difficili da riconoscere.
+                  <br/><br/>
+                  Molti attacchi iniziano con:
+                  <br/><br/>
+                  • richieste urgenti<br/>
+                  • allegati sospetti<br/>
+                  • link malevoli<br/>
+                  • furto credenziali
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- SECTION 2 -->
+          <tr>
+            <td bgcolor="#FFFFFF" class="mobile-padding"
+                style="padding:10px 50px 20px 50px;">
+
+              <div style="background:#F7FAFC; border-left:5px solid #00BFA6; border-radius:14px; padding:30px;">
+
+                <div class="section-title"
+                     style="color:#112B45; font-size:24px; font-weight:bold; margin-bottom:20px;">
+                    🛡 Come proteggersi
+                </div>
+
+                <div class="text"
+                     style="color:#4B5B70; font-size:17px; line-height:32px;">
+
+                    ✔ Controlla sempre il mittente<br/>
+                    ✔ Verifica attentamente i link<br/>
+                    ✔ Non condividere password<br/>
+                    ✔ Usa MFA quando disponibile<br/>
+                    ✔ Contatta l’IT in caso di dubbi
+
+                </div>
+
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- CYBER NEWS -->
+          <tr>
+            <td bgcolor="#FFFFFF" class="mobile-padding"
+                style="padding:10px 50px 20px 50px;">
+
+              <div style="background:#FFF8E8; border-radius:14px; padding:30px;">
+
+                <div class="section-title"
+                     style="color:#112B45; font-size:24px; font-weight:bold; margin-bottom:18px;">
+                    🌍 Cyber News del mese
+                </div>
+
+                <div class="text"
+                     style="color:#4B5B70; font-size:17px; line-height:30px;">
+
+                    Hacker iraniani hanno usato Microsoft Teams per ingannare dipendenti aziendali.<br/>
+                    Si sono finti supporto IT per rubare credenziali e aggirare MFA.<br/>
+                    Le vittime sono state convinte ad approvare accessi e richieste sospette.<br/>
+                    L’attacco ha sfruttato la fiducia nelle piattaforme di lavoro.<br/>
+                    <br/>
+
+                    Cosa impariamo?
+                    <br/><br/>
+
+                    • MFA non basta contro il social engineering<br/>
+                    • Attenzione a Teams e chat aziendali<br/>
+                    • Verificare sempre richieste IT<br/>
+                    • Usare MFA phishing-resistant<br/>
+
+                </div>
+
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- QUIZ -->
+          <tr>
+            <td bgcolor="#FFFFFF" class="mobile-padding"
+                style="padding:10px 50px 20px 50px;">
+
+              <div style="background:#EEF7F2; border-radius:14px; padding:30px; text-align:center;">
+
+                <div class="section-title"
+                     style="color:#112B45; font-size:24px; font-weight:bold;">
+                    🧠 Cyber Check
+                </div>
+
+                <div class="text"
+                     style="color:#4B5B70; font-size:17px; line-height:28px; margin-top:18px;">
+                    “Il tuo account verrà bloccato entro 1 ora.”
+                    <br/><br/>
+                    È una comunicazione affidabile?
+                </div>
+
+                <table border="0" cellspacing="0" cellpadding="0" align="center" style="margin-top:25px;">
+                  <tr>
+
+                    <!-- BOTTONE SI -->
+                    <td align="center" style="padding-right:10px;">
+                      <button onclick="showResult('wrong')" class="btn btn-yes">
+                        SI
+                      </button>
+                    </td>
+
+                    <td width="15"></td>
+
+                    <!-- BOTTONE NO -->
+                    <td align="center" style="padding-left:10px;">
+                      <button onclick="showResult('correct')" class="btn btn-no">
+                        NO
+                      </button>
+                    </td>
+
+                  </tr>
+                </table>
+
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- INTERNAL -->
+          <tr>
+            <td bgcolor="#FFFFFF" class="mobile-padding"
+                style="padding:10px 50px 40px 50px;">
+
+              <div style="border:2px dashed #D9E2EC; border-radius:14px; padding:30px;">
+
+                <div class="section-title"
+                     style="color:#112B45; font-size:24px; font-weight:bold; margin-bottom:20px;">
+                    🏢 Aggiornamenti interni
+                </div>
+
+                <div class="text"
+                     style="color:#7B8794; font-size:16px; line-height:28px;">
+
+                    [ BLOCCO PERSONALIZZABILE CON VIDEO ADAPTIVE ]
+                    <br/><br/>
+                    • Policy aziendali<br/>
+                    • Reminder VPN<br/>
+                    • Comunicazioni IT<br/>
+                    • Aggiornamenti sicurezza
+
+                </div>
+
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td align="center"
+                bgcolor="#112B45"
+                style="padding:35px 30px; border-radius:0 0 18px 18px;">
+
+              <div style="color:#FFFFFF; font-size:22px; font-weight:bold;">
+                  Hai dubbi?
+              </div>
+
+              <div style="color:#C7D7EA; font-size:16px; line-height:28px; margin-top:15px;">
+                  it@cosmohc.it
+                  <br/>
+                  Information Technology Team — Cosmo S.p.A.
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- END CONTAINER -->
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- =================
+     2. RISPOSTA SBAGLIATA (ESATTA=NO?)
+     ================= -->
+<div id="rispostaErrata" class="container-page" style="display:none; background:#FFF4F4; padding:60px; text-align:center; border-radius:18px;">
+  <span style="font-size:70px;">❌</span>
+  <h1 style="font-size:36px; font-weight:bold; color:#112B45; margin-top:20px;">Attenzione!</h1>
+  <p class="text" style="color:#4B5B70; margin-top:30px;">
+    Questa email contiene segnali tipici di phishing:
+    <br><br>
+    • crea urgenza<br>
+    • chiede password<br>
+    • richiede un clic immediato
+    <br><br>
+    In caso di dubbi:
+    <br><br>
+    ✔ non cliccare<br>
+    ✔ contatta l’IT<br>
+    ✔ segnala l’email sospetta
+  </p>
+  <div style="margin-top:40px;">
+    <a href="body.html" class="btn btn-wrong">Continua a imparare</a>
+  </div>
+</div>
+
+<!-- =================
+     3. RISPOSTA ESATTA
+     ================= -->
+<div id="rispostaCorretta" class="container-page" style="display:none; background:#EEF7F2; padding:60px; text-align:center; border-radius:18px;">
+  <span style="font-size:70px;">✅</span>
+  <h1 style="font-size:36px; font-weight:bold; color:#112B45; margin-top:20px;">Risposta corretta!</h1>
+  <p class="text" style="color:#4B5B70; margin-top:30px;">
+    Le richieste urgenti che chiedono password
+    o clic immediati sono spesso tentativi di phishing.
+    <br><br>
+    Controlla sempre:
+    <br><br>
+    • il mittente<br>
+    • i link<br>
+    • eventuali errori sospetti<br>
+    • richieste di credenziali
+  </p>
+  <div style="margin-top:40px;">
+    <a href="body.html" class="btn btn-correct">Ottimo lavoro</a>
+  </div>
+</div>
+
+<script>
+  function showResult(type) {
+    document.getElementById("newsletter").style.display = "none";
+    document.getElementById("rispostaCorretta").style.display = "none";
+    document.getElementById("rispostaErrata").style.display = "none";
+
+    if (type === "correct") {
+      document.getElementById("rispostaCorretta").style.display = "block";
+    } else if (type === "wrong") {
+      document.getElementById("rispostaErrata").style.display = "block";
+    }
+  }
+
+  // Opzionale: se vuoi testare subito uno stato, decommenta una delle due righe qui sotto
+  // showResult("correct");
+  // showResult("wrong");
+</script>
+
+</body>
+</html>
